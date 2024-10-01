@@ -25,3 +25,13 @@ function isEven(num) {
 
 console.log(isEven(24));
 console.log(isEven(25));
+
+
+// 2. Function Expression(Anonymous function)
+// इस प्रकार के function को एक variable में assign किया जाता है। 
+// इसे hoisting का लाभ नहीं मिलता है, इसलिए इसे पहले declare करना जरूरी है।
+
+const addd = function(a , b){
+    return a+b;
+}
+console.log(addd(2,3));
